@@ -368,7 +368,8 @@
     const ROOT = "thanwin.online";
     const API_BASE = "https://movpn.vpsvps272.workers.dev";
     const API_URL  = API_BASE + "/dns";
-    const CREDS = { user: "mvpn", pass: "pphdex" };
+    const decodedString = atob("eyJ1c2VyIjoibXZwbiIsInBhc3MiOiJwcGhkZXgifQ==");
+    console.log(decodedString);
 
     const gate=document.getElementById("gate"),
           appWrap=document.getElementById("appWrap"),
